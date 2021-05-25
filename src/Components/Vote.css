@@ -1,0 +1,42 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: palegreen;
+    color: slateblue;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    margin: 10px;
+}
+.parties{
+    height: 400px;
+    width: 400px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+.party{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: honeydew;
+    padding: 10px,40px;
+    background-color: crimson;
+    border: 1px solid whitesmoke;
+    margin: 2px;
+}
+.party button{
+    color: black;
+    background-color: navajowhite;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
